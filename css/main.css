@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+.hidden {
+    display: none;
+}
+
+
+/* Index Page Elements*/
+
+#siteContainer {
+    width: 1000px;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#mainNav {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    width: 200px;
+    height: 152px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftNav {
+    display: flex;
+    width: 214.54px;
+    height: 68.17px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#rightNav {
+    display: flex;
+    width: 214.54px;
+    height: 68.17px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+#define {
+    width: 100%;
+    height: 267px;
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#define div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#mainFooter {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#mainFooter div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#tdyImg {
+    width: 455.52px;
+    height: 373.11px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#black {
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#tdy {
+    height: 373.11px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-direction: wrap;
+}
+
+#tdyP {
+    width: 455.52px;
+    height: 373.11px;
+    background-color: #000;
+    display: flex;
+    margin-left: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#spacing {
+    line-height: 1.15em;
+    padding: 20px;
+}
